@@ -1,0 +1,2 @@
+# itsec-shell-automation
+Scripting
