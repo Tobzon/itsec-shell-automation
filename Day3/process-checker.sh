@@ -30,4 +30,4 @@ run_checks() {
 }
 
 run_checks "processlist.txt"
-log "Kontoller slutförda."
+log "Kontoller slutförda".

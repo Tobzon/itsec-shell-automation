@@ -9,10 +9,10 @@ function Write-Log {
 function Check-Process {
    param([string]$Name)
    if (Get-Process -Name $Name -ErrorAction SilentlyContinue) {
-        Write-Log "Processen '$Name' körs."
+        Write-Log "Processen '$Name' existerar."
    }
     else {
-        Write-Log "Varning: Processen '$Name' körs inte."
+        Write-Log "Varning: Processen '$Name' existerar inte."
     }
 }
 
@@ -30,4 +30,4 @@ function Run-Checks {
 }
 
 Run-Checks "processlist.txt"
-Write-Log "Kontroller slutförda."
+Write-Log "Kontroller klara."
